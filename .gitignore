@@ -1,0 +1,67 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# Whisper / ML model caches
+backend/rag/vectorstore/
+*.bin
+*.pt
+*.onnx
+*.pkl
+*.faiss
+
+# Generated audio files
+backend/static/audio/
+
+# Node.js / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/.vercel/
+
+# Environment / Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Internal planning docs
+p1_implementation_plan.md
+p2_implementation_plan.md
+p3_implementation_plan.md
+p4_implementation_plan.md
+p5_implementation_plan.md
+p6_implementation_plan.md
+p7_implementation_plan.md
+p8_implementation_plan.md
+p9_implementation_plan.md
+p10_implementation_plan.md
+p11_implementation_plan.md
+p12_implementation_plan.md
+p13_implementation_plan.md
+memory.md
+reference_readme.md
+ai.html
+
+# Logs
+*.log
+logs/
