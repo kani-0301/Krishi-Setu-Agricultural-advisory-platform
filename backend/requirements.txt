@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+httpx
+langchain
+langchain-community
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+pypdf
+openai-whisper
+gTTS
+pydub
+deep-translator
+python-multipart
